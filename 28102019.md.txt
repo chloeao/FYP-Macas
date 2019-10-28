@@ -1,0 +1,18 @@
+# 28/10/2019
+## Attendees:
+Simon, Donald, Carman, Chloe
+
+## Finished items (from the last meeting notes):
+We set up the Ruby on Rails development environment in our IDE clound9. We created the database and table for quizzes and questions. 
+
+## Discussion:
+After we have chosen to use cloud site –Cloud9, we installed ruby on rails on this platform. We found that there is an existed function called scaffold that can automatically generate three main parts of the web: model, view and controller, as well as the database after doing the migration. We created two simple tables for test and built the relationship between each other. Since in our opinion, one quiz has many questions but one question only belongs to one quiz, and question should contain an existed quiz id which means a question can only be created in the quiz. Therefore, they respectively own the tag ‘has_many’ and ‘belongs_to’. Then, we tried creating some simple function in model page, which would be responsible for the manipulation of interface in the future. Finally, we learnt how to put the whole system up to github. It would be helpful for record our routine and rollback in case of that the system fails when exception occurs.
+
+## Challenges:
+We found big trouble in building the relationship between tables because ruby on rails pays a lot attention in the single and plural of table name. Additionally, since we use scaffold to generate the template, if we try to build it we need to an extra migration file for ensure the foreign key within quiz table. We search for a lot of reference in the website so we overcome these problems.
+
+## Schedule:
+After the meeting, we try completing the database and improving the functions which is more related with the real product.
+
+## Meeting Image
+
